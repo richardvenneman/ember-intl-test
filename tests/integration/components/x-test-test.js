@@ -1,6 +1,6 @@
 import hbs from 'htmlbars-inline-precompile';
 import { moduleForComponent, test } from 'ember-qunit';
-import instanceInitializer from '../../instance-initializers/ember-intl';
+import instanceInitializer from '../../../instance-initializers/ember-intl';
 
 moduleForComponent('x-test', 'Integration | Component | x test', {
   integration: true,
