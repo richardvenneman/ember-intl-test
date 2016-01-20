@@ -4,8 +4,8 @@ export default Ember.Component.extend({
   intl: Ember.inject.service(),
 
   output: Ember.computed('key', function() {
-    let key = `output.${this.get('key')}`
+    let key = `output.${this.get('key')}`;
 
-    return this.get('intl').formatMessage(key/*, optional options hash */);
+    return this.get('intl').t(key);
   })
 });
